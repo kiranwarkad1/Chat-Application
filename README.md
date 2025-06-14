@@ -51,31 +51,37 @@ A full-stack real-time chat application with user authentication, one-on-one mes
 
 ## 🧑‍💻 Run Locally
 
-✅ Clone the Repository
+### 📁 Clone the project
 
+```bash
 git clone https://github.com/kiranwarkad1/Chat-Application.git
 cd Chat-Application
+
+---
+
 ⚙️ Setup Backend
-bash
-Copy
-Edit
 cd backend
 npm install
 npm run dev
 
-📝 Create a .env file inside the backend/ folder and add:
+Add your .env file inside backend/
 PORT=5000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
+
 Your backend will now be running at:
 👉 http://localhost:5000
+
+---
 
 🌐 Setup Frontend
 cd ../frontend
 npm install
 npm start
-Your frontend is now live at:
+
+Now your frontend is live at:
 👉 http://localhost:3000
+
 
 📁 Folder Structure
 Chat-Application/
@@ -93,8 +99,10 @@ Chat-Application/
 └── README.md
 
 📬 Contact
-Kiran Warkad
-📧 Email: kiranwarkad1@gmail.com
-🔗 LinkedIn: linkedin.com/in/kiran-warkad
-🔗 GitHub: github.com/kiranwarkad1
+For queries or collaboration, reach out to:
+
+Kiran Warkad 
+📧 Email: kiranwarkad1@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/kiran-warkad-9548a0336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
+🔗 GitHub: [github.com/kiranwarkad1](https://github.com/kiranwarkad1)
 
